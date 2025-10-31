@@ -58,12 +58,16 @@ if __name__ == "__main__":
     subject = "Youth Sports Operations With Waresport"
     body = """Hello [NAME],
 
-I hope you're doing well! I'm reaching out to introduce our youth sports operations platform — built specifically for organizations like yours that manage teams, schedules, registrations, and communication all in one place.
-We're already helping clubs across the region streamline their operations and make them more scalable. We'd love to explore how we can support [CLUB_NAME] as well. 
-Would you be open to a quick call or demo? I'd be happy to walk you through how it works and how it can support your goals.
+I hope you're doing well! I'm reaching out to introduce our youth sports operations platform — 
+built specifically for organizations like yours that manage teams, schedules, registrations, and communication all in one place.
+We're already helping clubs across the region streamline their operations and make them more scalable. 
+We'd love to explore how we can support [CLUB_NAME] as well. 
+Would you be open to a quick call or demo? 
+I'd be happy to walk you through how it works and how it can support your goals.
 
 Best regards, 
 
 """
     sender.send_bulk_emails("recipients.csv", subject, body)
+
 
